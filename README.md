@@ -1,6 +1,8 @@
 UK Income Tax Calculator
 =============
 
+[![Build Status](https://travis-ci.org/moneyio/uk-income-tax.png?branch=master)](https://travis-ci.org/moneyio/uk-income-tax)
+
 A standalone UK tax calculator.
 
 Usage options:
