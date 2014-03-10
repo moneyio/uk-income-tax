@@ -1,6 +1,6 @@
 {
   "name": "uk-income-tax",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "UK Income Tax Calculator",
   "main": "index.js",
   "scripts": {

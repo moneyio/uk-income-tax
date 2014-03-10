@@ -8,7 +8,8 @@ Usage options:
     var TaxCalculator = require('uk-income-tax');
     var persona = {
         age : 18,
-        income : 50000
+        income : 50000,
+        taxCode : '944L'
     };
     var tc = new TaxCalculator(persona);
     tc.setTaxYear('2013_14');
