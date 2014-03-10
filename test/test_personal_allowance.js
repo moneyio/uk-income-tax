@@ -3,7 +3,7 @@
 */
 
 var sys = require('sys'),
-    MIO = require("../lib/personal_allowance").MIO,
+    PersonalAllowanceFactory = require("../lib/personal_allowance_factory"),
     testCase = require('nodeunit').testCase;
 
 
@@ -24,7 +24,7 @@ module.exports = {
                     blind : true
                 };
 
-                this.pa = new MIO.PersonalAllowanceFactory(persona, '2009_10');
+                this.pa = new PersonalAllowanceFactory(persona, '2009_10');
 
                 callback();
             },
@@ -49,7 +49,7 @@ module.exports = {
                     blind : true
                 };
 
-                this.pa = new MIO.PersonalAllowanceFactory(persona, '2009_10');
+                this.pa = new PersonalAllowanceFactory(persona, '2009_10');
 
                 callback();
             },
@@ -73,7 +73,7 @@ module.exports = {
                     income : 25000
                 };
 
-                this.pa = new MIO.PersonalAllowanceFactory(persona, '2009_10');
+                this.pa = new PersonalAllowanceFactory(persona, '2009_10');
 
                 callback();
             },
@@ -97,7 +97,7 @@ module.exports = {
                     income : 25000
                 };
 
-                this.pa = new MIO.PersonalAllowanceFactory(persona, '2009_10');
+                this.pa = new PersonalAllowanceFactory(persona, '2009_10');
 
                 callback();
             },
@@ -122,7 +122,7 @@ module.exports = {
                     blind : true
                 };
 
-                this.pa = new MIO.PersonalAllowanceFactory(persona, '2009_10');
+                this.pa = new PersonalAllowanceFactory(persona, '2009_10');
 
                 callback();
             },
@@ -148,7 +148,7 @@ module.exports = {
                     blind : true
                 };
 
-                this.pa = new MIO.PersonalAllowanceFactory(persona, '2009_10');
+                this.pa = new PersonalAllowanceFactory(persona, '2009_10');
 
                 callback();
             },
@@ -172,7 +172,7 @@ module.exports = {
                     income : 25000
                 };
 
-                this.pa = new MIO.PersonalAllowanceFactory(persona, '2009_10');
+                this.pa = new PersonalAllowanceFactory(persona, '2009_10');
 
                 callback();
             },
@@ -206,7 +206,7 @@ module.exports = {
                     blind : true
                 };
 
-                this.pa = new MIO.PersonalAllowanceFactory(persona, '2010_11');
+                this.pa = new PersonalAllowanceFactory(persona, '2010_11');
 
                 callback();
             },
@@ -231,7 +231,7 @@ module.exports = {
                     blind : true
                 };
 
-                this.pa = new MIO.PersonalAllowanceFactory(persona, '2010_11');
+                this.pa = new PersonalAllowanceFactory(persona, '2010_11');
 
                 callback();
             },
@@ -255,7 +255,7 @@ module.exports = {
                     income : 25000
                 };
 
-                this.pa = new MIO.PersonalAllowanceFactory(persona, '2010_11');
+                this.pa = new PersonalAllowanceFactory(persona, '2010_11');
 
                 callback();
             },
@@ -279,7 +279,7 @@ module.exports = {
                     income : 25000
                 };
 
-                this.pa = new MIO.PersonalAllowanceFactory(persona, '2010_11');
+                this.pa = new PersonalAllowanceFactory(persona, '2010_11');
 
                 callback();
             },
@@ -304,7 +304,7 @@ module.exports = {
                     blind : true
                 };
 
-                this.pa = new MIO.PersonalAllowanceFactory(persona, '2010_11');
+                this.pa = new PersonalAllowanceFactory(persona, '2010_11');
 
                 callback();
             },
@@ -330,7 +330,7 @@ module.exports = {
                     blind : true
                 };
 
-                this.pa = new MIO.PersonalAllowanceFactory(persona, '2010_11');
+                this.pa = new PersonalAllowanceFactory(persona, '2010_11');
 
                 callback();
             },
@@ -354,7 +354,7 @@ module.exports = {
                     income : 25000
                 };
 
-                this.pa = new MIO.PersonalAllowanceFactory(persona, '2010_11');
+                this.pa = new PersonalAllowanceFactory(persona, '2010_11');
 
                 callback();
             },
@@ -389,7 +389,7 @@ module.exports = {
                     blind : true
                 };
 
-                this.pa = new MIO.PersonalAllowanceFactory(persona, '2011_12');
+                this.pa = new PersonalAllowanceFactory(persona, '2011_12');
 
                 callback();
             },
@@ -414,7 +414,7 @@ module.exports = {
                     blind : true
                 };
 
-                this.pa = new MIO.PersonalAllowanceFactory(persona, '2011_12');
+                this.pa = new PersonalAllowanceFactory(persona, '2011_12');
 
                 callback();
             },
@@ -438,7 +438,7 @@ module.exports = {
                     income : 25000
                 };
 
-                this.pa = new MIO.PersonalAllowanceFactory(persona, '2011_12');
+                this.pa = new PersonalAllowanceFactory(persona, '2011_12');
 
                 callback();
             },
@@ -462,7 +462,7 @@ module.exports = {
                     income : 25000
                 };
 
-                this.pa = new MIO.PersonalAllowanceFactory(persona, '2011_12');
+                this.pa = new PersonalAllowanceFactory(persona, '2011_12');
 
                 callback();
             },
@@ -487,7 +487,7 @@ module.exports = {
                     blind : true
                 };
 
-                this.pa = new MIO.PersonalAllowanceFactory(persona, '2011_12');
+                this.pa = new PersonalAllowanceFactory(persona, '2011_12');
 
                 callback();
             },
@@ -513,7 +513,7 @@ module.exports = {
                     blind : true
                 };
 
-                this.pa = new MIO.PersonalAllowanceFactory(persona, '2011_12');
+                this.pa = new PersonalAllowanceFactory(persona, '2011_12');
 
                 callback();
             },
@@ -537,7 +537,7 @@ module.exports = {
                     income : 25000
                 };
 
-                this.pa = new MIO.PersonalAllowanceFactory(persona, '2011_12');
+                this.pa = new PersonalAllowanceFactory(persona, '2011_12');
 
                 callback();
             },
@@ -561,7 +561,7 @@ module.exports = {
                     taxCode : '647L'
                 };
 
-                this.pa = new MIO.PersonalAllowanceFactory(persona, '2011_12');
+                this.pa = new PersonalAllowanceFactory(persona, '2011_12');
 
                 callback();
             },
@@ -585,7 +585,7 @@ module.exports = {
                     taxCode : 'BR'
                 };
 
-                this.pa = new MIO.PersonalAllowanceFactory(persona, '2011_12');
+                this.pa = new PersonalAllowanceFactory(persona, '2011_12');
 
                 callback();
             },
@@ -609,7 +609,7 @@ module.exports = {
                     taxCode : 'D0'
                 };
 
-                this.pa = new MIO.PersonalAllowanceFactory(persona, '2011_12');
+                this.pa = new PersonalAllowanceFactory(persona, '2011_12');
 
                 callback();
             },
@@ -633,7 +633,7 @@ module.exports = {
                     taxCode : 'D1'
                 };
 
-                this.pa = new MIO.PersonalAllowanceFactory(persona, '2011_12');
+                this.pa = new PersonalAllowanceFactory(persona, '2011_12');
 
                 callback();
             },
@@ -657,7 +657,7 @@ module.exports = {
                     taxCode : 'K647'
                 };
 
-                this.pa = new MIO.PersonalAllowanceFactory(persona, '2011_12');
+                this.pa = new PersonalAllowanceFactory(persona, '2011_12');
 
                 callback();
             },

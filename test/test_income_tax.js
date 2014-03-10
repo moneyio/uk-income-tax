@@ -3,7 +3,7 @@
 */
 
 var sys = require('sys'),
-    MIO = require("../lib/income_tax").MIO,
+    TaxCalculator = require("../lib/income_tax"),
     testCase = require('nodeunit').testCase;
 
 
@@ -24,7 +24,7 @@ module.exports = {
                     income : 25000
                 };
 
-                var tc = new MIO.TaxCalculator(persona);
+                var tc = new TaxCalculator(persona);
                 tc.setTaxYear('2009_10');
                 this.tc = tc;
 
@@ -50,7 +50,7 @@ module.exports = {
                     income : 45000
                 };
 
-                var tc = new MIO.TaxCalculator(persona);
+                var tc = new TaxCalculator(persona);
                 tc.setTaxYear('2009_10');
                 this.tc = tc;
 
@@ -76,7 +76,7 @@ module.exports = {
                     income : 125000
                 };
 
-                var tc = new MIO.TaxCalculator(persona);
+                var tc = new TaxCalculator(persona);
                 tc.setTaxYear('2009_10');
                 this.tc = tc;
 
@@ -108,7 +108,7 @@ module.exports = {
                     income : 25000
                 };
 
-                var tc = new MIO.TaxCalculator(persona);
+                var tc = new TaxCalculator(persona);
                 tc.setTaxYear('2009_10');
                 this.tc = tc;
 
@@ -134,7 +134,7 @@ module.exports = {
                     income : 45000
                 };
 
-                var tc = new MIO.TaxCalculator(persona);
+                var tc = new TaxCalculator(persona);
                 tc.setTaxYear('2009_10');
                 this.tc = tc;
 
@@ -160,7 +160,7 @@ module.exports = {
                     income : 125000
                 };
 
-                var tc = new MIO.TaxCalculator(persona);
+                var tc = new TaxCalculator(persona);
                 tc.setTaxYear('2009_10');
                 this.tc = tc;
 
@@ -192,7 +192,7 @@ module.exports = {
                     income : 25000
                 };
 
-                var tc = new MIO.TaxCalculator(persona);
+                var tc = new TaxCalculator(persona);
                 tc.setTaxYear('2009_10');
                 this.tc = tc;
 
@@ -228,7 +228,7 @@ module.exports = {
                     income : 25000
                 };
 
-                var tc = new MIO.TaxCalculator(persona);
+                var tc = new TaxCalculator(persona);
                 tc.setTaxYear('2010_11');
                 this.tc = tc;
 
@@ -254,7 +254,7 @@ module.exports = {
                     income : 45000
                 };
 
-                var tc = new MIO.TaxCalculator(persona);
+                var tc = new TaxCalculator(persona);
                 tc.setTaxYear('2010_11');
                 this.tc = tc;
 
@@ -280,7 +280,7 @@ module.exports = {
                     income : 125000
                 };
 
-                var tc = new MIO.TaxCalculator(persona);
+                var tc = new TaxCalculator(persona);
                 tc.setTaxYear('2010_11');
                 this.tc = tc;
 
@@ -312,7 +312,7 @@ module.exports = {
                     income : 25000
                 };
 
-                var tc = new MIO.TaxCalculator(persona);
+                var tc = new TaxCalculator(persona);
                 tc.setTaxYear('2010_11');
                 this.tc = tc;
 
@@ -338,7 +338,7 @@ module.exports = {
                     income : 45000
                 };
 
-                var tc = new MIO.TaxCalculator(persona);
+                var tc = new TaxCalculator(persona);
                 tc.setTaxYear('2010_11');
                 this.tc = tc;
 
@@ -364,7 +364,7 @@ module.exports = {
                     income : 125000
                 };
 
-                var tc = new MIO.TaxCalculator(persona);
+                var tc = new TaxCalculator(persona);
                 tc.setTaxYear('2010_11');
                 this.tc = tc;
 
@@ -396,7 +396,7 @@ module.exports = {
                     income : 25000
                 };
 
-                var tc = new MIO.TaxCalculator(persona);
+                var tc = new TaxCalculator(persona);
                 tc.setTaxYear('2010_11');
                 this.tc = tc;
 
@@ -431,7 +431,7 @@ module.exports = {
                     income : 25000
                 };
 
-                var tc = new MIO.TaxCalculator(persona);
+                var tc = new TaxCalculator(persona);
                 tc.setTaxYear('2011_12');
                 this.tc = tc;
 
@@ -457,7 +457,7 @@ module.exports = {
                     income : 45000
                 };
 
-                var tc = new MIO.TaxCalculator(persona);
+                var tc = new TaxCalculator(persona);
                 tc.setTaxYear('2011_12');
                 this.tc = tc;
 
@@ -484,7 +484,7 @@ module.exports = {
                     taxCode : 'K445'
                 };
 
-                var tc = new MIO.TaxCalculator(persona);
+                var tc = new TaxCalculator(persona);
                 tc.setTaxYear('2011_12');
                 this.tc = tc;
 
@@ -510,7 +510,7 @@ module.exports = {
                     income : 125000
                 };
 
-                var tc = new MIO.TaxCalculator(persona);
+                var tc = new TaxCalculator(persona);
                 tc.setTaxYear('2011_12');
                 this.tc = tc;
 
@@ -542,7 +542,7 @@ module.exports = {
                     income : 25000
                 };
 
-                var tc = new MIO.TaxCalculator(persona);
+                var tc = new TaxCalculator(persona);
                 tc.setTaxYear('2011_12');
                 this.tc = tc;
 
@@ -568,7 +568,7 @@ module.exports = {
                     income : 45000
                 };
 
-                var tc = new MIO.TaxCalculator(persona);
+                var tc = new TaxCalculator(persona);
                 tc.setTaxYear('2011_12');
                 this.tc = tc;
 
@@ -594,7 +594,7 @@ module.exports = {
                     income : 125000
                 };
 
-                var tc = new MIO.TaxCalculator(persona);
+                var tc = new TaxCalculator(persona);
                 tc.setTaxYear('2011_12');
                 this.tc = tc;
 
@@ -626,7 +626,7 @@ module.exports = {
                     income : 25000
                 };
 
-                var tc = new MIO.TaxCalculator(persona);
+                var tc = new TaxCalculator(persona);
                 tc.setTaxYear('2011_12');
                 this.tc = tc;
 
@@ -652,7 +652,7 @@ module.exports = {
                     income : 125000
                 };
 
-                var tc = new MIO.TaxCalculator(persona);
+                var tc = new TaxCalculator(persona);
                 tc.setTaxYear('2011_12');
                 this.tc = tc;
 
@@ -684,7 +684,7 @@ module.exports = {
                     income : 25000
                 };
 
-                var tc = new MIO.TaxCalculator(persona);
+                var tc = new TaxCalculator(persona);
                 tc.setTaxYear('2011_12');
                 this.tc = tc;
 
@@ -710,7 +710,7 @@ module.exports = {
                     income : 25000
                 };
 
-                var tc = new MIO.TaxCalculator(persona);
+                var tc = new TaxCalculator(persona);
                 tc.setTaxYear('2011_12');
                 this.tc = tc;
 
@@ -736,7 +736,7 @@ module.exports = {
                     income : 25000
                 };
 
-                var tc = new MIO.TaxCalculator(persona);
+                var tc = new TaxCalculator(persona);
                 tc.setTaxYear('2011_12');
                 this.tc = tc;
 
@@ -762,7 +762,7 @@ module.exports = {
                     income : 25000
                 };
         
-                var tc = new MIO.TaxCalculator(persona);
+                var tc = new TaxCalculator(persona);
                 tc.setTaxYear('2011_12');
                 this.tc = tc;
         
@@ -788,7 +788,7 @@ module.exports = {
                     income : 25000
                 };
         
-                var tc = new MIO.TaxCalculator(persona);
+                var tc = new TaxCalculator(persona);
                 tc.setTaxYear('2011_12');
                 this.tc = tc;
         
@@ -815,7 +815,7 @@ module.exports = {
                     income : 25000
                 };
 
-                var tc = new MIO.TaxCalculator(persona);
+                var tc = new TaxCalculator(persona);
                 tc.setTaxYear('2011_12');
                 this.tc = tc;
 

@@ -5,14 +5,14 @@
 
 
 var sys = require('sys'),
-    TCC = require("../lib/tax_code_parser").MIO,
+    TaxCodeCalculator = require("../lib/tax_code_parser"),
     testCase = require('nodeunit').testCase;
 
 module.exports = {
     'Tax Code 647L' : testCase({
         setUp: function (callback) {
             var taxCode = '647L';
-            this.TCC = new TCC.TaxCodeCalculator(taxCode);
+            this.TCC = new TaxCodeCalculator(taxCode);
 
             callback();
         },
@@ -36,7 +36,7 @@ module.exports = {
     'Tax Code K445' : testCase({
         setUp: function (callback) {
             var taxCode = 'K445';
-            this.TCC = new TCC.TaxCodeCalculator(taxCode);
+            this.TCC = new TaxCodeCalculator(taxCode);
 
             callback();
         },
@@ -60,7 +60,7 @@ module.exports = {
     'Tax Code 647P' : testCase({
         setUp: function (callback) {
             var taxCode = '647P';
-            this.TCC = new TCC.TaxCodeCalculator(taxCode);
+            this.TCC = new TaxCodeCalculator(taxCode);
 
             callback();
         },
@@ -84,7 +84,7 @@ module.exports = {
     'Tax Code 647Y' : testCase({
         setUp: function (callback) {
             var taxCode = '647Y';
-            this.TCC = new TCC.TaxCodeCalculator(taxCode);
+            this.TCC = new TaxCodeCalculator(taxCode);
 
             callback();
         },
@@ -108,7 +108,7 @@ module.exports = {
     'Tax Code 647T' : testCase({
         setUp: function (callback) {
             var taxCode = '647T';
-            this.TCC = new TCC.TaxCodeCalculator(taxCode);
+            this.TCC = new TaxCodeCalculator(taxCode);
 
             callback();
         },
@@ -132,7 +132,7 @@ module.exports = {
     'Tax Code BR' : testCase({
         setUp: function (callback) {
             var taxCode = 'BR';
-            this.TCC = new TCC.TaxCodeCalculator(taxCode);
+            this.TCC = new TaxCodeCalculator(taxCode);
             
 
             callback();
@@ -157,7 +157,7 @@ module.exports = {
     'Tax Code D0' : testCase({
         setUp: function (callback) {
             var taxCode = 'D0';
-            this.TCC = new TCC.TaxCodeCalculator(taxCode);
+            this.TCC = new TaxCodeCalculator(taxCode);
             
 
             callback();
@@ -182,7 +182,7 @@ module.exports = {
     'Tax Code D1' : testCase({
         setUp: function (callback) {
             var taxCode = 'D1';
-            this.TCC = new TCC.TaxCodeCalculator(taxCode);
+            this.TCC = new TaxCodeCalculator(taxCode);
             
 
             callback();
@@ -207,7 +207,7 @@ module.exports = {
     'Tax Code NT' : testCase({
         setUp: function (callback) {
             var taxCode = 'NT';
-            this.TCC = new TCC.TaxCodeCalculator(taxCode);
+            this.TCC = new TaxCodeCalculator(taxCode);
             
 
             callback();
