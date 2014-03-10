@@ -5,7 +5,7 @@ A standalone UK tax calculator.
 
 Usage options:
 
-    var TaxCalculator = require('./uk-income-tax');
+    var TaxCalculator = require('uk-income-tax');
     var persona = {
         age : 18,
         income : 50000
